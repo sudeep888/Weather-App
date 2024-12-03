@@ -24,8 +24,6 @@ Follow these steps to get your local copy up and running:
 
 2. **Install dependencies:**
 npm install
-# or if you prefer yarn
-yarn install
 
 🔑 API Key Configuration
 To fetch weather data, you need an API key from OpenWeatherMap. Here’s how to configure it:
@@ -36,11 +34,9 @@ VITE_API_KEY=your_api_key_here
 
 💻 Running the Application
 Once you have configured the API key, you can run the application with the following command:
-
 npm run dev
-# or using yarn
-yarn dev
-Open your browser and visit http://localhost:5173 to see the app in action!
+
+Open your browser and visit http://localhost:3003 to see the app in action!
 
 🎨 Customization
 Feel free to customize the app! You can change styles, modify components, or even integrate additional features. Check out the React documentation for guidance.
@@ -58,6 +54,6 @@ git push origin feature/new-feature
 5.Open a pull request.
 
 🌟 Acknowledgments
-# OpenWeatherMap for providing the weather data API.
-# Vite for the fast and efficient development setup.
-# React for the powerful library that makes building UIs a breeze.
+ OpenWeatherMap for providing the weather data API.
+ Vite for the fast and efficient development setup.
+ React for the powerful library that makes building UIs a breeze.
